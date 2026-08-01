@@ -1,8 +1,24 @@
 aid: project-eaden
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/project-eaden.png
 name: Project Eaden
-description: 'Project Eaden is a company surfaced as a portfolio company of creandum and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Project Eaden (PROJECT EADEN GmbH) is a Berlin-based food-technology company
+  building fiber-spinning technology to power the next generation of whole-cut plant-based
+  protein. Its platform reconstructs the fibrous structure of animal muscle from plant
+  ingredients to create alternatives such as plant-based fish and meat, and it collaborates
+  on consumer brands including LEKKA. Backed by Creandum and co-funded through EIT Food
+  and the European Union, the company operates as a consumer food-tech producer and
+  currently publishes no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/project-eaden/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Food Technology
+- Alternative Protein
+- Plant-Based
+- Sustainability
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/project-eaden-domain-security.yml
 - type: Website
   url: https://www.projecteaden.com/
+- type: PrivacyPolicy
+  url: https://www.projecteaden.com/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
